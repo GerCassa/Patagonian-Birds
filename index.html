@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Patagonian Birds</title>
-    <link rel="stylesheet" type="text/css" media="screen" href="/css/style.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css">
     <script src="js/app.js"></script>
   </head>
   <body>
@@ -16,13 +16,18 @@
         </div>
 
         <div class="form-item">
-          <label for="binomial-nomenclature" class="primary">Binomial nomenclature</label>
-          <input type="text" id="binomial-nomenclature" required/>
+          <label for="binomialNomenclature" class="primary">Binomial nomenclature</label>
+          <input type="text" id="binomialNomenclature" required/>
         </div>
 
         <div class="form-item">
-          <label for="conservation-status" class="primary">Conservation Status</label>
-          <select id="conservation-status">
+          <label for="photo" class="primary">Photo Link</label>
+          <input type="text" id="photo" required/>
+        </div>
+
+        <div class="form-item">
+          <label for="conservationStatus" class="primary">Conservation Status</label>
+          <select id="conservationStatus">
           <option value="" disabled selected></option>
           <option value="Least Concerned">Least Concerned</option>
           <option value="Threatened">Threatened</option>
@@ -33,6 +38,13 @@
     </form>
 
     <h1>All Birds</h1>
-    <div id="all-birds"></div>
+    <div id="all-birds">
+      <p>Name: Cardenal Comun</p>
+      <p>Binomial Nomenclature: Paroaria coronata</p>
+      <p>Conservation Status: Least Threatened</p>
+      <p><img src= "https://i.ytimg.com/vi/F2CJnWjyE-I/maxresdefault.jpg" height="100" width="150"></p>
+    </div>
+
+    <button class = "input-button" id="delete-all" type="button">Delete All</button>
   </body>
 </html>

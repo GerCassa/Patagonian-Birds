@@ -1,0 +1,38 @@
+body {
+  font-family: Palatino;
+}
+
+#new-item-form {
+  position: relative;
+  border:0px none;
+  padding: 8px 12px;
+  background-color: white;
+  cursor:pointer;
+  font-family: 'Nova Mono', monospace;
+}
+
+
+h1 {
+  position: relative;
+  border:0px none;
+  padding: 8px 12px;
+  font-family: 'Nova Mono', monospace;
+}
+
+#all-birds{
+  text-align: center;
+  padding: 0;
+  border:1px none;
+  border-radius: 5%;
+  background-color: #84BCDA;
+  font-family: 'Nova Mono', monospace;
+  margin-top: 1em;
+}
+
+.p1 {
+  font-size: 1.5em;
+}
+
+.p2, .p3 {
+  font-size: 1em;
+}
